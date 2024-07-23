@@ -9,13 +9,13 @@
   background-image: url(../image/background/BACK5.jpg);
   background-size: cover;
   overflow: hidden;
-  padding: 100px;
+  padding: 150px;
   display: flex;
 }
 
 .container .me-sh {
-  padding: 40px;
-  margin: 40px;
+  padding: 20px;
+  margin: 20px;
 }
 
 input[type="text"],
