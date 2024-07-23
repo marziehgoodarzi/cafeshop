@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* lo-gin */
+.container {
+    background-image: url(../image/background/BACK5.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.lo-cont {
+    border-radius: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+.lo-gin-img{
+    display: flex;
+    padding: 20px;
+}
+
+.lo-gin-img img:hover {
+    animation: customAni 2s ease 0s infinite normal none;
+}
+
+@keyframes customAni {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+  
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+  
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+  
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+  
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
+
+.log-for {
+    display: flex;
+    padding: 5px;
+
+}
+
+
+
+input[type=email],
+label {
+    width: 90%;
+    padding: 8px;
+    margin: 20px;
+    color: #947848;
+    font-family: "Teachers", sans-serif;
+}
+
+input[type=password],
+label {
+    color: #947848;
+    width: 90%;
+    padding: 8px;
+    margin: 20px;
+    font-family: "Teachers", sans-serif;
+}
+
+input[type=checkbox] {
+    color: #947848;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type=submit] {
+    background-color: #947848;
+}
+
+input[type=submit],
+label {
+    width: 90%;
+    padding: 8px;
+    margin: 20px;
+    color: #030303;
+    font-family: "Teachers", sans-serif;
+
+}
+
+input[type=submit]:hover {
+    animation: marzi 2s ease-in 0s 1 normal none;
+}
+
+@keyframes marzi {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+legend{
+    padding: 20px;
+    color: #947848;
+}
+
+
+.lo-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.lo-add a{
+    font-family: "Teachers", sans-serif;
+    color: #947848;
+    padding: 5px;
+    margin: 5px;
+}
+.lo-add p{
+    font-family: "Teachers", sans-serif;
+    color: #947848;
+    padding: 5px;
+    margin: 5px;
+}
+.lo-add a:hover{
+color: rgb(247, 15, 15);
+}
+
+
+.lo-dad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.lo-dad a{
+    font-family: "Teachers", sans-serif;
+    color: #947848;
+    padding: 5px;
+    margin: 5px;
+}
+.lo-dad a:hover{
+color: rgb(247, 15, 15);
+}
+.lo-dad p{
+    font-family: "Teachers", sans-serif;
+    color: #947848;
+    padding: 5px;
+    margin: 5px;
+}
+.lo-dad a:hover{
+    color: rgb(247, 15, 15);
+    }
+
+
+
+
+/* /lo-gin */
+
+
+
+
+
+/* fo-er */
+.fo-er {
+    width: 100%;
+    padding: 5%;
+    height: 180px;
+    background-color: #553c12;
+    overflow: hidden;
+}
+
+.ico-1 {
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 200%;
+    color: rgba(250, 238, 238, 0.973);
+    padding: 1%;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-brands:hover {
+    color: rgba(255, 0, 0, 0.973);
+}
+
+.fa-solid {
+    font-size: 200%;
+    color: rgba(250, 238, 238, 0.973);
+    padding: 1%;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.fa-solid:hover {
+    color: rgba(255, 0, 0, 0.973);
+}
+
+.bo-r {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.959);
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* fo-er */
